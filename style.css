@@ -1,0 +1,50 @@
+
+body, html{
+    margin: 0%;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primeColor);
+}
+
+.light{
+    --primeColor: #172336;
+    --secondColor: #FFFFFF;
+    --textColor: #ff0000;
+}
+
+.dark{
+    --primeColor: #FFFFFF;
+    --secondColor: #172336;
+    --textColor: #0066ff;
+}
+
+.screen{
+    max-width: 80%;
+    height: 100vh;
+    margin: 15 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+h1{
+    max-width: 80%;
+    font-weight: 300;
+    color: var(--textColor);
+    font-weight: 300;
+}
+
+h3{
+    margin: 10rem 0 5rem 0;
+    max-width: 80%;
+    font-weight: 300;
+    color: var(--textColor);
+    font-weight: 300;
+}
